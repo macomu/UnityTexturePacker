@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement class="Root">
+        <uie:ObjectField name="AtlasSelector" label="Atlas: " allow-scene-object="false" tooltip="target atlas." />
+        <uie:IntegerField name="InputTextureMaxSize" label="Texture max size: " allow-scene-object="false" tooltip="maximum size of the texture." value="2048" />
+        <uie:IntegerField name="InputPadding" label="Padding: " allow-scene-object="false" tooltip="padding between textures." value="2" />
+        <ui:ListView name="SpriteList" />
+        <ui:VisualElement name="UpdateDisplay" class="UpdateDisplay" style="display: flex; flex-shrink: 0; padding-bottom: 5px;">
+            <ui:Button name="UpdateAtlasButton" text="Update" style="background-color: rgb(37, 154, 54);" />
+        </ui:VisualElement>
+        <ui:VisualElement name="CreateDisplay" class="CreateDisplay" style="display: flex; flex-shrink: 0; padding-bottom: 5px;">
+            <ui:VisualElement name="SelectPathToNewAtlas" style="flex-direction: row; margin-left: 3px; margin-right: 3px; margin-top: 2px; margin-bottom: 2px; display: flex;">
+                <ui:TextField name="CreateNameField" style="width: 80%; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;" />
+                <ui:Button name="SelectPathToNewAtlasButton" text="Select" style="width: auto;" />
+            </ui:VisualElement>
+            <ui:Button name="CreateAtlasButton" text="Create" style="background-color: rgb(89, 118, 154);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
+

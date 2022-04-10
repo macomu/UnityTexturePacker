@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement class="SpriteListItem" style="flex-direction: row; padding-left: 2px; padding-right: 2px; padding-top: 2px; padding-bottom: 2px;">
+        <ui:Button name="SpriteStatusText_Stay" text="Stay" class="SpriteListItemStatusText" style="background-color: rgb(124, 82, 168); width: 30px; justify-content: flex-start; align-items: stretch; -unity-text-align: upper-center; display: flex;" />
+        <ui:Button name="SpriteStatusText_Add" text="A" class="SpriteListItemStatusText" style="background-color: rgb(89, 118, 154); width: 30px; justify-content: flex-start; align-items: stretch; -unity-text-align: upper-center; display: flex; visibility: visible; overflow: visible;" />
+        <ui:Button name="SpriteStatusText_Update" text="M" class="SpriteListItemStatusText" style="background-color: rgb(37, 154, 54); width: 30px; justify-content: flex-start; align-items: stretch; -unity-text-align: upper-center; opacity: 1; visibility: visible; display: flex;" />
+        <ui:Button name="SpriteStatusText_Remove" text="D" class="SpriteListItemStatusText" style="background-color: rgb(197, 42, 69); width: 30px; justify-content: flex-start; align-items: stretch; -unity-text-align: upper-center; opacity: 1; visibility: visible; display: flex;" />
+        <ui:Label name="SpriteNameText" text="SpriteName" class="SpriteListItemNameText" style="-unity-text-align: middle-left;" />
+    </ui:VisualElement>
+</ui:UXML>
